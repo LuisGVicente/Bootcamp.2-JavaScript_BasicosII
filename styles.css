@@ -1,0 +1,29 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.maindiv {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.divclass {
+    border: 1px solid black;
+    display: flex;
+    max-width: 30%;
+    margin: 1%;
+    
+}
+
+.sect1class {
+    max-width: 50%;
+}
+
+.sect2class {
+    padding: 2%;
+}
+
+.imgclass {
+    max-width: 100%;
+    border: 1px goldenrod solid;
+}
